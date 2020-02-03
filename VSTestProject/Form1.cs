@@ -16,5 +16,11 @@ namespace VSTestProject
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            var test = "Hello";
+            textBox1.Text = test;
+        }
     }
 }
